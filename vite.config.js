@@ -7,5 +7,8 @@ export default defineConfig({
   // Use a separate cache directory to avoid permission issues with the default .vite folder
   cacheDir: "node_modules/.vite-app",
   assetsInclude: ["**/*.glb"],
+  preview: {
+    allowedHosts: ["alexportfolio-qjca.onrender.com"],
+  },
   plugins: [react(), tailwindcss()],
 });
