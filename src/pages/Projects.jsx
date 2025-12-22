@@ -15,11 +15,12 @@ const Projects = () => {
       </h1>
 
       <p className="text-slate-500 mt-2 leading-relaxed">
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        Over the years, I’ve built and shipped a range of MERN-stack projects,
+        many of which I’m especially proud of for their real-world impact and
+        thoughtful design. Several are open-source, and I welcome anyone who’s
+        curious to explore the codebase, suggest improvements, or contribute
+        directly. Collaboration and continuous improvement are core to how I
+        build.
       </p>
 
       <div className="flex flex-wrap my-20 gap-16">
