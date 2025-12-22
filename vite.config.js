@@ -8,7 +8,11 @@ export default defineConfig({
   cacheDir: "node_modules/.vite-app",
   assetsInclude: ["**/*.glb"],
   preview: {
-    allowedHosts: ["alexportfolio-qjca.onrender.com"],
+    allowedHosts: [
+      "alexportfolio-qjca.onrender.com",
+      "alexmedici.online",
+      "www.alexmedici.online",
+    ],
   },
   plugins: [react(), tailwindcss()],
 });
